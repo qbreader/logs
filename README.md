@@ -7,7 +7,7 @@ Any files containing IP address should be hidden from this public repository by 
 
 ## Obtaining Logs
 QB Reader is hosted on [Heroku](https://www.heroku.com/) with [Logtail](https://betterstack.com/logtail) integration.
-We are interestedin how often certain sets are requested (not including multiplayer).
+We are interested in how often certain sets are requested (not including multiplayer).
 Heroku logs of requests to the `/api/packet-tossups` or `/api/packet-bonuses` endpoints are queried from Logtail using Grafana with the following SQL query:
 
 ```SQL
