@@ -11,7 +11,7 @@ ips = []
 for line in f:
     try:
         set_name = regex.findall(r'(?<=setName=).*?(?=&)', line)[0]
-        set_name = set_name.replace('%20', ' ').replace('%22', '"').replace('%27', "'")
+        set_name = set_name.replace('%20', ' ').replace('%22', '"').replace('%23', '#').replace('%27', "'")
 
         if len(set_name) == 0:
             continue
