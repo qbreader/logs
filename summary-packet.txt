@@ -1,140 +1,141 @@
 Set Name: # of packets requested
-# of unique sets: 137 (total 3491 packets)
+# of unique sets: 138 (total 2622 packets)
 -----
-2021 NEWT                                          163
-2013 PACE NSC                                      155
-2022 Boilermaker Spring Novice                     151
-2022 PACE NSC                                      131
-2021 NASAT                                         116
-2019 NASAT                                         110
-2021 PACE NSC                                      108
-2020 CALISTO                                       100
-2019 Penn Bowl                                     99
-2022 SCOP MS 11                                    89
-2021 CALISTO 2                                     75
-2014 SUBMIT                                        75
-2019 PACE NSC                                      67
-2022 WORKSHOP                                      66
-2022 Chicago Open                                  64
-2020 Terrapin Open                                 64
-2021 Glasgow Scottie                               57
-2019 ILLIAC                                        53
-2022 COAST                                         52
-2021 SMH                                           49
-2020 Prison Bowl                                   47
-2019 ACF Fall                                      43
-2022 MRNA VACCINE                                  43
-2021 CERES                                         43
-2021 DART I                                        40
-2021 DART II                                       38
-2019 ACF Regionals                                 37
-2019 Early Fall Tournament (EFT)                   36
-2019 HFT                                           36
-2014 PADAWAN                                       34
-2017 (This) Tournament is a Crime                  33
-2020 RAFT II                                       32
-2020 STASH                                         32
-2021 Spring Novice                                 29
-2018 Penn Bowl                                     29
-2021 Penn Bowl                                     28
-2019 ACF Nationals                                 28
-2018 PACE NSC                                      28
-2021 Illinois Open                                 28
-2020 SCOP MS 10                                    27
-2019 RULFO                                         27
-2021 ACF Fall                                      27
-2021 WORKSHOP                                      27
-2018 ACF Nationals                                 25
-2018 ACF Regionals                                 25
-2017 BHSAT                                         25
-2021 ARCADIA                                       25
-2020 SCOP A                                        24
-2021 SCOP B                                        24
-2017 PACE NSC                                      23
-2021 ACF Winter                                    22
-2017 Chicago Open                                  21
-2016 PACE NSC                                      20
-2018 Early Fall Tournament (EFT)                   20
-2020 ACF Regionals                                 19
-MASSOLIT                                           19
-2016 MYSTERIUM                                     19
-2017 Penn Bowl                                     19
-2017 ACF Regionals                                 18
-2019 Terrapin                                      18
-2020-2021 Matt Cvijanovich Memorial Tournament     17
-2020 Saturnalia                                    17
-2020 ACF Fall                                      16
-2020 AQBL October                                  15
-2016 "stanford housewrite"                         15
-2016 Early Fall Tournament (EFT)                   15
-2020 Spring Undergraduate Novice                   15
+2022 ACF Regionals                                 163
+2012 PACE NSC                                      133
+2020 Prison Bowl                                   130
+2022 PACE NSC                                      116
+2022 MRNA VACCINE                                  90
+2016 NASAT                                         81
+2021 CALISTO 2                                     79
+2020 CALISTO                                       68
+2022 SCOP MS 11                                    57
+2021 DART II                                       56
+2018 BHSAT                                         56
+2021 Glasgow Scottie                               53
+2021 NEWT                                          52
+MASSOLIT                                           52
+2021 NASAT                                         49
+2021 PACE NSC                                      48
+2022 WORKSHOP                                      45
+2020 RAFT II                                       45
+2021 SMH                                           41
+2021 DART I                                        38
+2020 ACF Winter                                    37
+2018 IMSAnity                                      37
+2021 ACF Fall                                      35
+2022 ACF Nationals                                 33
+2022 Boilermaker Spring Novice                     33
+2021 WORKSHOP                                      32
+2018 Glasgow Scottie                               32
+2021 CERES                                         31
+2021 ARCADIA                                       31
+2017 NASAT                                         29
+2017 BHSAT                                         28
+2019 ACF Fall                                      26
+2019 Glasgow Scottie                               26
+2016 PACE NSC                                      25
+2021 Illinois Open                                 24
+2019 ILLIAC                                        23
+2021 ACF Winter                                    23
+2022 Chicago Open                                  23
+2020 SCOP MS 10                                    23
+2020 ACF Fall                                      22
+2018 PACE NSC                                      22
+2019 ACF Nationals                                 22
+2019 Penn Bowl                                     21
+2019 WAIT                                          20
+2020 Oxford Open                                   19
+2010 ACF Winter                                    17
+2020 IKEA                                          16
+2019 ACF Regionals                                 16
+2021 HARI                                          16
+2020 Terrapin Open                                 16
 2018 ACF Fall                                      15
-2018 BHSAT                                         14
-2017 WHAQ                                          14
-2018 WHAQ                                          14
-2019 WAIT                                          14
-2015 BASK                                          14
-2017 RMBCT                                         14
-2017 SCOP MS 7                                     13
-2018 Prison Bowl                                   13
-2018 NASAT                                         12
-2016 Terrapin                                      12
-2015 PACE NSC                                      11
-2021 SKUFFED                                       10
-2019 Prison Bowl                                   10
-2019 RMBAT                                         10
-2020 BHSAT                                         9
-2017 Early Fall Tournament (EFT)                   9
-2022 ACF Regionals                                 9
-2022 ACF Nationals                                 9
-2010 ACF Fall                                      9
-2020 TAILS                                         9
-2021 MUSES II                                      8
-2018 GLRAC                                         7
-2019 CAST                                          7
-2021 MSQB Madness                                  7
-2021 HARI                                          7
-2018 SMT                                           6
-2015 George Oppen                                  5
-2014 ACF Nationals                                 5
-2019 RAFT                                          5
-2019 BLAST                                         5
-2019 ATHENA II                                     5
-2020 MOQBA Novice                                  4
-2021 Chicago Open                                  4
-2021 The World As It Is                            4
-2020 SCALE                                         4
-2020 ERIS                                          4
-2011 PACE NSC                                      4
-2022 20th-21st Century Literature Packet           3
-2021 BHSAT                                         3
-2022 STANIEL                                       3
-2022 QUARTET                                       3
-2019 Fall Open                                     3
-2021 FINE AARTS                                    3
-2013 Minnesota Undergraduate Tournament (MUT)      3
-2019 Imsanity                                      3
-2021 LHASA                                         3
-2016 ACF Regionals                                 3
-2018 penn bowl                                     3
-2021 The Geography Front                           3
-2021 CERES%5C                                      2
-2020 IKEA                                          2
-2013 VCU Open                                      2
-2022 Alex's Science Packet                         2
-2019 Reel Knowledge                                2
-2020 Penn Bowl                                     2
-2014 PACE NSC                                      2
-2021 ACF Regionals                                 2
-2021 KEYSET                                        1
-1                                                  1
-2016 PLATO                                         1
-2019 Spartan Housewrite                            1
-2015 SHEIKH                                        1
-2021 ACF Nationals                                 1
-2020 FLopen                                        1
-2021 DUOS                                          1
+2019 Early Fall Tournament (EFT)                   14
+2015 HFT                                           14
+2020 SCOP A                                        13
+2019 PIANO                                         13
+2021 BHSAT                                         12
+2013 Collaborative Middle School Tournament #4     12
+2021 LHASA                                         12
+2019 RAFT                                          11
+2021 COOT                                          11
+2019 Prison Bowl                                   11
+2019 Spartan Housewrite                            11
+2017 PACE NSC                                      10
+2019 NASAT                                         10
+2021 MSQB Madness                                  10
+2017 WHAQ                                          9
+2016 BHSAT                                         9
+2019 Reel Knowledge                                8
+2019 PACE NSC                                      8
+2020 LONE STAR                                     8
+2020 Saturnalia                                    8
+2015 PACE NSC                                      8
+2022 COAST                                         7
+2019 BLAST                                         7
+2020 WORKSHOP                                      7
+2020 SCALE                                         7
+2021 DUOS                                          7
+2020 STASH                                         7
+2010 PACE NSC                                      7
+2010 ACF Fall                                      6
+2019 Fall Open                                     6
+2021 SKUFFED                                       5
+2011 PACE NSC                                      5
+2022 STANIEL                                       5
+2020 BHSAT                                         4
+Osamah                                             4
+2019 LOGIC                                         4
+2020-2021 Matt Cvijanovich Memorial Tournament     4
+Jackie Higgs                                       4
+2013 PACE NSC                                      4
+2012 Collaborative Middle School Tournament #3     4
+2022 DECAF                                         3
+2019 HFT                                           3
+ACF Regionals 2018                                 3
+2021 Spring Novice                                 3
+2017 ACF Fall                                      3
+2022 20th-21st Century Literature Packet           2
+2015 Chicago Open                                  2
+2021+PACE+NSC                                      2
+quizbowlpackets.com%2F2636%2FPacket%25201.pdf      2
+2636                                               2
+2021 Shiva's Tiny Science Tossups                  2
+2018 ACF Regionals                                 2
+2010 Chicago Open                                  2
+2021 Halloween Contemporary Poetry Packet          2
+2021 Remember the Women                            2
+2022 COHORT                                        2
+Hello                                              2
+2020 Glasgow Scottie                               2
+2018 WHAQ                                          2
+2022 Alex's Science Packet                         1
+2017 WAO                                           1
+2018 Geography Monstrosity                         1
+2019 Age of Empires                                1
+2018 Prison Bowl                                   1
+2017 HIGS                                          1
+2019 BHSAT                                         1
+2020 AQBL October                                  1
+https%3A%2F%2Fcollegiate.quizbowlpackets.com%2F2659%2FA.%2520NYU%2520A%2C%2520Tennessee%2520A%2C%2520Virginia%2520A.pdf 1
+quizbowlpackets.com%2F2659%2FA.%2520NYU%2520A%2C%2520Tennessee%2520A%2C%2520Virginia%2520A.pdf 1
+https%3A%2F%2Fquizbowlpackets.com%2F2636%2FPacket%25201.pdf 1
+2022 Random Music Packet                           1
+2017 Darien DEFT                                   1
+2020 ERIS                                          1
+2013 Prison Bowl                                   1
+2021 Penn Bowl                                     1
+2021 SCOP B                                        1
+Jordan                                             1
+2021 The World As It Is                            1
+2021 ACF Regionals                                 1
+2021 GORKY II                                      1
+2011 Collaborative Middle School Tournament #2     1
+2010 Collaborative Middle School Tournament        1
+2020 FRENCH II                                     1
+2021 ACF Nationals Qualifier                       1
+2021 Dan and Coby and Tiffany's Math Set           1
 2021 Geoffrey Wu's NFL Packet                      1
-2018 Historature                                   1
-2020 Michigan Winter Tournament                    1
-2016 Penn Bowl                                     1
+2016 ACF Nationals                                 1
