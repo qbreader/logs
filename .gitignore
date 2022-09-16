@@ -5,5 +5,5 @@ old
 .DS_Store
 api-packet.txt
 multiplayer.txt
-summary-ip.txt
+summary-singleplayer-ip.txt
 summary-multiplayer-*.txt

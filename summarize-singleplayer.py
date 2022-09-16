@@ -2,8 +2,8 @@ from collections import Counter
 import regex
 
 f = open('api-packet.txt', 'r')
-g = open('summary-packet.txt', 'w')
-h = open('summary-ip.txt', 'w')
+g = open('summary-singleplayer-packet.txt', 'w')
+h = open('summary-singleplayer-ip.txt', 'w')
 
 set_names = []
 ips = []
