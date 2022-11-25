@@ -37,7 +37,7 @@ WHERE
     dt BETWEEN toDateTime64($from, 3)
     AND toDateTime64($to, 3)
     AND proc_id = 'web.1'
-    AND message LIKE 'DATABASE RANDOM QUESTIONS%'
+    AND message LIKE '[DATABASE] RANDOM QUESTIONS%'
 ```
 
 ### Database Queries
@@ -50,7 +50,7 @@ WHERE
     dt BETWEEN toDateTime64($from, 3)
     AND toDateTime64($to, 3)
     AND proc_id = 'web.1'
-    AND message LIKE 'DATABASE QUERY%'
+    AND message LIKE '[DATABASE] QUERY%'
 ```
 
 ### Multiplayer Connections
