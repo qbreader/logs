@@ -26,11 +26,11 @@ g.write('Set Name: # of packets requested\n')
 g.write(f'# of unique sets: {len(counter)} (total {len(set_names)} packets)\n')
 g.write('-----\n')
 for key, value in counter.most_common():
-	g.write(f'{key:<50} {value}\n')
+    g.write(f'{key:<50} {value}\n')
 
 counter = Counter(ips)
 h.write('IP address: # of packets requested\n')
 h.write(f'# of unique IPs: {len(counter)}\n')
 h.write('-----\n')
 for key, value in counter.most_common():
-	h.write(f'{key:<20} {value}\n')
+    h.write(f'{key:<20} {value}\n')

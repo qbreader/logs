@@ -24,18 +24,18 @@ g1.write('Rooms: # of connections\n')
 g1.write(f'# of unique rooms: {len(room_counter)}\n')
 g1.write('-----\n')
 for key, value in room_counter.most_common():
-	g1.write(f'{key:<50} {value}\n')
+    g1.write(f'{key:<50} {value}\n')
 
 id_counter = Counter(ids)
 g2.write('IDs: # of connections\n')
 g2.write(f'# of unique IDs: {len(id_counter)}\n')
 g2.write('-----\n')
 for key, value in id_counter.most_common():
-	g2.write(f'{key:<50} {value}\n')
+    g2.write(f'{key:<50} {value}\n')
 
 username_counter = Counter(usernames)
 g3.write('Usernames: # of connections\n')
 g3.write(f'# of unique usernames: {len(username_counter)}\n')
 g3.write('-----\n')
 for key, value in username_counter.most_common():
-	g3.write(f'{key:<50} {value}\n')
+    g3.write(f'{key:<50} {value}\n')
