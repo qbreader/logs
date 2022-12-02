@@ -1,10 +1,10 @@
 from collections import Counter
 import re
 
-f = open('multiplayer.txt', 'r')
-g1 = open('summary-multiplayer-rooms.txt', 'w')
-g2 = open('summary-multiplayer-ids.txt', 'w')
-g3 = open('summary-multiplayer-usernames.txt', 'w')
+f = open('raw.log', 'r')
+g1 = open('summary-rooms.txt', 'w')
+g2 = open('summary-ids.txt', 'w')
+g3 = open('summary-usernames.txt', 'w')
 
 rooms = []
 ids = []
