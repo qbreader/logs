@@ -1,9 +1,4 @@
-_packets
-backups
-old
-
 .DS_Store
-api-packet.txt
-multiplayer.txt
-summary-singleplayer-ip.txt
-summary-multiplayer-*.txt
+*/raw.log
+*/summary-*.txt
+!singleplayer-packet/summary-packet.txt
