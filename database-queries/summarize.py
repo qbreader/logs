@@ -8,8 +8,8 @@ query_strings = []
 
 for line in f:
     query_string = re.search(r'(?<=string: \\u001b\[96m).*?(?=\\u001b)', line).group()
-    query_string = query_string.replace('\\\\', '\\')
-
+    query_string = query_string.replace(r'\\', '')
+    query_string = query_string.lower()
     query_strings.append(query_string)
 
 query_string_counter = Counter(query_strings)
