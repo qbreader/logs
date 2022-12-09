@@ -64,17 +64,3 @@ WHERE
     AND proc_id = 'web.1'
     AND message LIKE 'Connection%'
 ```
-
-### Light/Dark Mode
-
-```SQL
-SELECT message
-FROM $table
-
-WHERE
-    dt BETWEEN toDateTime64($from, 3)
-    AND toDateTime64($to, 3)
-    AND message LIKE 'at=info method=GET path="/bootstrap/light.css"%'
-```
-
-For dark mode, swap out `light.css` for `dark.css`.
