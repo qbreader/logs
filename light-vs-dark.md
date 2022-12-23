@@ -51,4 +51,12 @@ Dark:   4580 (31.6%)
 Total: 14477 (100.0%)
 ```
 
+2022-12-16 to 2022-12-22:
+
+```
+Light: 9031  (71.0%)
+Dark:  3690  (29.0%)
+Total: 12721 (100.0%)
+```
+
 [^1]: It's not a debate, since dark mode is clearly superior.
