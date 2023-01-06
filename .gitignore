@@ -2,3 +2,4 @@
 */raw.log
 */summary-*.txt
 !singleplayer-packet/summary-packet.txt
+!database-queries/summary-queries.txt
