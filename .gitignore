@@ -1,5 +1,9 @@
 .DS_Store
+
 */raw.log
 */summary-*.txt
-!singleplayer-packet/summary-packet.txt
+
+!database-queries/raw.log
 !database-queries/summary-queries.txt
+!database-random/raw.log
+!singleplayer-packet/summary-packet.txt
