@@ -26,7 +26,7 @@ WHERE
     AND message LIKE 'at=info method=GET path="/api/packet%'
 ```
 
-### Singleplayer Random Questions
+### Database Random Questions
 
 ```SQL
 SELECT message
