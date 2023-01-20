@@ -3,7 +3,5 @@
 */raw.log
 */summary-*.txt
 
-!database-queries/raw.log
 !database-queries/summary-queries.txt
-!database-random/raw.log
 !singleplayer-packet/summary-packet.txt
