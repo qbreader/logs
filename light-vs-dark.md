@@ -94,8 +94,17 @@ Total: 19734 (100.0%)
 2013-01-20 to 2023-01-26:
 
 ```
-Light: 15031
-Dark: 6725
+Light: 15031 (69.1%)
+Dark:   6725 (30.9%)
+Total: 21756 (100.0%)
+```
+
+2023-01-27 to 2023-02-02:
+
+```
+Light: 16909 (68.7%)
+Dark:   7720 (31.3%)
+Total: 24629 (100.0%)
 ```
 
 [^1]: It's not a debate, since dark mode is clearly superior.
