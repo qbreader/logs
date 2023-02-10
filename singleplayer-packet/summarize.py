@@ -1,4 +1,5 @@
 from collections import Counter
+from urllib.parse import unquote
 import regex
 
 f = open('raw.log', 'r')
@@ -12,14 +13,15 @@ for line in f:
     try:
         if 'status=404' in line:
             continue
+
         set_name = regex.findall(r'(?<=setName=).*?(?=&)', line)[0]
-        set_name = set_name.replace('%20', ' ').replace('%22', '"').replace('%23', '#').replace('%27', "'")
+        set_name = unquote(set_name)
 
         if len(set_name) == 0:
             continue
 
         set_names.append(set_name)
-        ips.append(regex.findall(r'(?<=fwd=\\").*?(?=\\")', line)[0])
+        ips.append(regex.findall(r'(?<=fwd=[\\"]").*?(?=[\\"]")', line)[0])
     except IndexError:
         print(line)
 
