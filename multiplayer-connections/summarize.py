@@ -1,5 +1,5 @@
 from collections import Counter
-import re
+import regex
 
 f = open('raw.log', 'r')
 g1 = open('summary-rooms.txt', 'w')
@@ -11,9 +11,9 @@ ids = []
 usernames = []
 
 for line in f:
-    room = re.search(r'(?<="Connection in room \\u001b\[95m)(.*?)(?=\\u001b)', line).group()
-    id = re.search(r'(?<=userId: \\u001b\[94m)(.*?)(?=\\u001b)', line).group()
-    username = re.search(r'(?<=username: \\u001b\[94m)(.*?)(?=\\u001b)', line).group()
+    room = regex.findall(r'(?<="Connection in room [\\u001b\u001b]\[95m).*?(?=[\\u001b\u001b]\[0m)', line)[0]
+    id = regex.findall(r'(?<=userId: [\\u001b\u001b]\[94m).*?(?=[\\u001b\u001b]\[0m)', line)[0]
+    username = regex.findall(r'(?<=username: [\\u001b\u001b]\[94m).*?(?=[\\u001b\u001b]\[0m)', line)[0]
 
     rooms.append(room)
     ids.append(id)
