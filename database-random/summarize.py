@@ -19,9 +19,14 @@ stats = {
 skipped_count = 0
 
 for file in os.listdir(LOGS_DIRECTORY):
-    f = open(f'{LOGS_DIRECTORY}/{file}', 'r')
+    f = open(f'{LOGS_DIRECTORY}/{file}', 'r', encoding='utf-8-sig')
 
     for line in f:
+        line = line.strip()
+
+        if line in ['"message"', '']:
+            continue
+
         try:
             subcategories = regex.findall(r'(?<=subcategories: \\u001b\[92m).*?(?=\\)', line)[0]
             subcategories = subcategories.split(',')

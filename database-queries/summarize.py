@@ -3,7 +3,7 @@ from urllib.parse import unquote
 
 import regex
 
-f = open('raw.log', 'r')
+f = open('raw.log', 'r', encoding='utf-8-sig')
 g1 = open('summary-queries.txt', 'w')
 g2 = open('summary-ip.txt', 'w')
 
@@ -11,6 +11,11 @@ query_strings = []
 ips = []
 
 for line in f:
+    line = line.strip()
+
+    if line in ['"message"', '']:
+        continue
+
     try:
         query_string = regex.findall(r'(?<=queryString=).*?(?=&)', line)[0]
         query_string = unquote(query_string)

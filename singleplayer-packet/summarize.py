@@ -2,7 +2,7 @@ from collections import Counter
 from urllib.parse import unquote
 import regex
 
-f = open('raw.log', 'r')
+f = open('raw.log', 'r', encoding='utf-8-sig')
 g = open('summary-packet.txt', 'w')
 h = open('summary-ip.txt', 'w')
 
@@ -10,6 +10,11 @@ set_names = []
 ips = []
 
 for line in f:
+    line = line.strip()
+
+    if line in ['"message"', '']:
+        continue
+
     try:
         if 'status=404' in line:
             continue
