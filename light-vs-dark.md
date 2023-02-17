@@ -7,7 +7,7 @@ This is an attempt to document which is more popular on [qbreader](https://www.q
 
 If a user has a system preference, then qbreader uses that.
 Otherwise, qbreader defaults to the previously selected mode.
-If no mode has been selected, then qbreader defaults to light mode[^2].
+If no mode has been selected, then qbreader defaults to dark mode[^2].
 
 The following SQL queries are used to determine the number of requests for light and dark mode.
 
@@ -48,5 +48,5 @@ For light mode, swap out `dark.css` for `light.css`.
 | 2023-02-14 to 2023-02-16[^3] | 5370 (58.6%) | 3790 (41.4%) | 9160 (100.0%)  |
 
 [^1]: It's not a debate, since dark mode is clearly superior.
-[^2]: I attempted to change the default theme [from light mode to dark mode](https://github.com/qbreader/website/commit/d267dcebe84a6e2309b4e1c89d6e03156efcc661) on 2023-02-10, but I did not actually change anything.
+[^2]: I attempted to change the default theme [from light mode to dark mode](https://github.com/qbreader/website/commit/d267dcebe84a6e2309b4e1c89d6e03156efcc661) on 2023-02-10, but I did not actually change anything. I successfully changed it [here](https://github.com/qbreader/website/commit/12f2e6842d48cae53fa2993a06b9212b06345f46).
 [^3]: Over the course of 2023-02-10 to 2023-02-13, the server was DDoS'd, so Grafana was unable to store all the logs and I had to delete and restart log collection.
