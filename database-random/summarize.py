@@ -28,10 +28,12 @@ for file in os.listdir(LOGS_DIRECTORY):
             continue
 
         try:
-            subcategories = regex.findall(r'(?<=subcategories: \\u001b\[92m).*?(?=\\)', line)[0]
+            subcategories = regex.findall(
+                r'(?<=subcategories: (?:\\u001b|\u001b)\[92m).*?(?=(?:\\u001b|\u001b)\[0m)', line)[0]
             subcategories = subcategories.split(',')
 
-            difficulties = regex.findall(r'(?<=difficulties: \\u001b\[92m).*?(?=\\)', line)[0]
+            difficulties = regex.findall(
+                r'(?<=difficulties: (?:\\u001b|\u001b)\[92m).*?(?=(?:\\u001b|\u001b)\[0m)', line)[0]
             difficulties = [int(difficulty) for difficulty in difficulties.split(',')]
         except:
             print(line)
@@ -41,7 +43,8 @@ for file in os.listdir(LOGS_DIRECTORY):
             skipped_count += 1
             continue
 
-        question_type = regex.findall(r'(?<=question type: \\u001b\[92m).*?(?=\\)', line)[0]
+        question_type = regex.findall(
+            r'(?<=question type: (?:\\u001b|\u001b)\[92m).*?(?=(?:\\u001b|\u001b)\[0m)', line)[0]
 
         for subcategory in subcategories:
             for difficulty in difficulties:
