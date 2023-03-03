@@ -29,7 +29,7 @@ for file in os.listdir(LOGS_DIRECTORY):
 
         try:
             subcategories = regex.findall(
-                r'(?<=subcategories: (?:\\u001b|\u001b)\[92m).*?(?=(?:\\u001b|\u001b)\[0m)', line)[0]
+                r'(?<=subcategories: (?:\\u001b|\u001b)\[96m).*?(?=(?:\\u001b|\u001b)\[0m)', line)[0]
             subcategories = subcategories.split(',')
 
             difficulties = regex.findall(
