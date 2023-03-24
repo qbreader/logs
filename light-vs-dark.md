@@ -50,6 +50,7 @@ For light mode, swap out `dark.css` for `light.css`.
 | 2023-02-24 to 2023-03-02     | 10721 (55.1%) | 8745 (44.9%) | 19466 (100.0%) |
 | 2023-03-03 to 2023-03-09     | 11154 (53.7%) | 8745 (46.3%) | 20760 (100.0%) |
 | 2023-03-10 to 2023-03-16     | 10554 (54.9%) | 8745 (45.1%) | 19223 (100.0%) |
+| 2023-03-17 to 2023-03-23     | 11649 (54.1%) | 9899 (45.9%) | 21548 (100.0%) |
 
 [^1]: It's not a debate, since dark mode is clearly superior.
 [^2]: I attempted to change the default theme [from light mode to dark mode](https://github.com/qbreader/website/commit/d267dcebe84a6e2309b4e1c89d6e03156efcc661) on 2023-02-10, but I did not actually change anything. I successfully changed it [here](https://github.com/qbreader/website/commit/12f2e6842d48cae53fa2993a06b9212b06345f46).
