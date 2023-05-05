@@ -21,7 +21,6 @@ for line in f:
 
         set_name = regex.findall(r'(?<=setName=).*?(?=&)', line)[0]
         set_name = unquote(set_name)
-        set_name = set_name.replace('+', ' ')
 
         if len(set_name) == 0:
             continue
