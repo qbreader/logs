@@ -40,7 +40,10 @@ FROM $table
 WHERE
     dt BETWEEN toDateTime64($from, 3)
     AND toDateTime64($to, 3)
-    AND message LIKE 'at=info method=GET path="/api/random-%'
+    AND (
+        message LIKE 'at=info method=GET path="/api/random-tossup%'
+        OR message LIKE 'at=info method=GET path="/api/random-bonus%'
+    )
 ```
 
 ### Database Queries
