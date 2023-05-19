@@ -4,3 +4,6 @@
 */summary-*.txt
 
 !singleplayer-packet/summary-packet.txt
+!database-random/summary-categories.txt
+!database-random/summary-difficulties.txt
+!database-random/summary-subcategories.txt
