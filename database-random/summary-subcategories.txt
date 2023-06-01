@@ -1,29 +1,29 @@
 subcategories: # of times requested
 -----
-World Literature          3412
-American Literature       3382
-European Literature       3317
-British Literature        3278
-Classical Literature      3252
-Other Literature          3222
-Chemistry                 2752
-Physics                   2741
-Ancient History           2685
-World History             2581
-Other Science             2505
-American History          2488
-Biology                   2484
-European History          2451
-Other History             2431
-Math                      2327
-Visual Fine Arts          2301
-Geography                 2147
-Auditory Fine Arts        1966
-Mythology                 1813
-Other Fine Arts           1749
-Philosophy                1414
-Religion                  1399
-Social Science            1184
-Trash                     1042
-Current Events            834
-Other Academic            828
+World Literature          3350
+European Literature       3329
+British Literature        3243
+Classical Literature      3228
+American Literature       3224
+Physics                   3224
+Biology                   3216
+Other Literature          3190
+Chemistry                 3167
+Ancient History           3114
+American History          3088
+Other Science             3029
+European History          3026
+World History             2997
+Other History             2948
+Math                      2825
+Geography                 2519
+Visual Fine Arts          2023
+Auditory Fine Arts        2006
+Mythology                 2003
+Other Fine Arts           1833
+Religion                  1742
+Philosophy                1400
+Social Science            1320
+Trash                     1271
+Current Events            1241
+Other Academic            1190
