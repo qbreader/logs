@@ -1,14 +1,14 @@
 categories: # of times requested
 -----
-History             2106
-Literature          2081
-Science             2068
-Fine Arts           1785
-Mythology           1213
-Geography           1206
-Religion            1046
-Philosophy          955
-Social Science      938
-Trash               740
-Other Academic      674
-Current Events      640
+History             2873
+Fine Arts           2128
+Literature          2113
+Science             2032
+Mythology           1586
+Geography           1370
+Religion            1060
+Philosophy          1056
+Social Science      993
+Other Academic      717
+Current Events      694
+Trash               638
