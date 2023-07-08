@@ -20,6 +20,7 @@ for line in f:
             continue
 
         set_name = regex.findall(r"(?<=setName=).*?(?=&)", line)[0]
+        set_name = set_name.replace("+", " ")
         set_name = unquote(set_name)
 
         if len(set_name) == 0:
